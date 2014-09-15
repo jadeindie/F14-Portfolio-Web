@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<meta charset="UTF-8">
+<title>Jade J Broomfield</title>
 
-<nav>
-<img src="logo.gif" alt="Jade Broomfield Logo">
-<ul>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="container">
+<div class="row">
+
+
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="glyphicon glyphicon-stop"></span>
+	<span class="glyphicon glyphicon-stop"></span>
+	<span class="glyphicon glyphicon-stop"></span>
+  </button>
+  <a class="col-xs-4 col-sm-3 col-md-6 navbar-brand" href="index.html"><img src="images/logo.gif" class="img-responsive" alt="Home"></a>
+</div>
+
+<nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav nav-justified">
 <li><a href="work.html">WORK</a></li>
 <li><a href="about.html">ABOUT</a></li>
 <li><a href="contact.html">CONTACT</a></li>
@@ -13,34 +35,40 @@
 
 <div class="socialmedia"> 
 <ul>
-<li><img src="instagram.gif" alt="instagram"></li>
-<li><img src="pinterest.gif" alt="pinterest"></li>
-<li><img src="twitter.gif" alt="twitter"></li>
+<li class="col-xs-2"><img src="images/instagram.gif" alt="instagram"></li>
+<li class="col-xs-2"><img src="images/pinterest.gif" alt="pinterest"></li>
+<li class="col-xs-2"><img src="images/twitter.gif" alt="twitter"></li>
 </ul>
 </div>
 
-<h1>Oh, Hey!</h1>
+<h1 class="col-xs-12">Oh, Hey!</h1>
 <h2>Recent Work</h2>
 
-<div class="recentwork">
+<div class="recentwork col-xs-12">
 <ul>
 <li>
 <a href="goldrush.html">
-<img src="goldrushrec.gif" alt="Golf Rush 2014">
+<img src="images/goldrushrec.gif" class="img-responsive" alt="Golf Rush 2014">
 </a>
 </li>
 <li>
 <a href="yourstory.html">
-<img src="yourstoryrec.gif" alt="Your Story Campaign">
+<img src="images/yourstoryrec.gif" class="img-responsive" alt="Your Story Campaign">
 </a>
 </li>
 <li>
 <a href="heatmag.html">
-<img src="heatmagrec.gif" alt="Heat Magazine">
+<img src="images/heatmagrec.gif" class="img-responsive" alt="Heat Magazine">
 </a>
 </li>
 </ul>
 </div>
+
+</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

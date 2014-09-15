@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+<title>Jade J Broomfield</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
 <body>
 
-<nav>
-<img src="logo.gif" alt="Jade Broomfield Logo">
-<ul>
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="glyphicon glyphicon-stop"></span>
+	<span class="glyphicon glyphicon-stop"></span>
+	<span class="glyphicon glyphicon-stop"></span>
+  </button>
+  <a class="col-xs-4 col-sm-3 col-md-2 navbar-brand" href="index.html"><img src="images/logo.gif" class="img-responsive" alt="Home"></a>
+</div>
+
+<nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav nav-justified">
 <li><a href="work.html">WORK</a></li>
 <li><a href="about.html">ABOUT</a></li>
 <li><a href="contact.html">CONTACT</a></li>
@@ -13,9 +32,9 @@
 
 <div class="socialmedia"> 
 <ul>
-<li><img src="instagram.gif" alt="instagram"></li>
-<li><img src="pinterest.gif" alt="pinterest"></li>
-<li><img src="twitter.gif" alt="twitter"></li>
+<li class="col-xs-2"><img src="images/instagram.gif" alt="instagram"></li>
+<li class="col-xs-2"><img src="images/pinterest.gif" alt="pinterest"></li>
+<li class="col-xs-2"><img src="images/twitter.gif" alt="twitter"></li>
 </ul>
 </div>
 
@@ -23,6 +42,8 @@
 <img src="sourcesspread.gif" alt="100 Sources of Motivation"></li>
 <p>project description</p>
 
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
